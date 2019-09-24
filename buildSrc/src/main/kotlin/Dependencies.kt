@@ -58,6 +58,8 @@ object Libraries {
         const val coroutines = "1.3.1"
 
         const val koin = "2.0.1"
+
+        const val paging = "2.1.0"
     }
 
     const val kotlinStdLib = "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlinVersion"
@@ -90,6 +92,9 @@ object Libraries {
     const val koinScope = "org.koin:koin-androidx-scope:${Versions.koin}"
     const val koinViewmodel = "org.koin:koin-androidx-viewmodel:${Versions.koin}"
     const val koinAndroidX = "org.koin:koin-androidx-ext:${Versions.koin}"
+
+    const val paging = "androidx.paging:paging-runtime:${Versions.paging}"
+    const val pagingRx = "androidx.paging:paging-rxjava2:${Versions.paging}"
 }
 
 object TestLibraries {
@@ -104,6 +109,8 @@ object TestLibraries {
 
         const val room = "2.2.0-rc01"
 
+        const val paging = "2.1.0"
+
     }
 
     const val junit4 = "junit:junit:${Versions.junit4}"
@@ -113,4 +120,6 @@ object TestLibraries {
     const val espresso = "androidx.test.espresso:espresso-core:${Versions.espresso}"
 
     const val testRoom = "androidx.room:room-testing:${Versions.room}"
+
+    const val testPaging = "androidx.paging:paging-common:${Versions.paging}"
 }

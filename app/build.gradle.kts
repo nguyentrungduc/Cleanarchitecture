@@ -25,6 +25,10 @@ android {
             )
         }
     }
+
+    dataBinding {
+        isEnabled = true
+    }
 }
 
 
@@ -50,6 +54,11 @@ dependencies {
     // Navigation
     implementation(Libraries.navigationFragment)
     implementation(Libraries.navigationUI)
+
+    // Paging
+    implementation(Libraries.paging)
+    implementation(Libraries.pagingRx)
+    testImplementation(TestLibraries.testPaging)
 
     // Coil
     implementation(Libraries.coil)
